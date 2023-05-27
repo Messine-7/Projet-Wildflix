@@ -115,7 +115,7 @@ selection = clickable_images(
 #------------------------------------------WILDFLIX------------------------------------------------
 
 if selection == 4 or selection == -1  :
-    video_path = 'images\WILDFLIX.mp4'
+    video_path = 'images/WILDFLIX.mp4' 
     video_file = open(video_path, 'rb')
     video_bytes = video_file.read()
     base64_video = base64.b64encode(video_bytes).decode()
